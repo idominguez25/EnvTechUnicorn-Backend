@@ -1,0 +1,20 @@
+<mat-toolbar color="primary" style="padding-top: 10px; padding-left: 50px; padding-right: 50px; padding-bottom: 10px;">
+  <mat-toolbar-row>
+    <span><img src="assets/deutsche-telekom-logo.svg" /></span>
+    <span style="flex: 1 1 auto;"></span>
+    <span><img src="assets/brand-claim.svg" /></span>
+  </mat-toolbar-row>
+</mat-toolbar>
+<mat-toolbar style="padding-top: 10px; padding-left: 50px; padding-right: 50px; padding-bottom: 10px; background-color: white;" class="mat-elevation-z2">
+  <mat-toolbar-row>
+    <span style="font-size: 1.5em;"><strong>Tech<span style="color: #E20074;">Unicorn</span></strong></span>
+    <span style="flex: 1 1 auto;"></span>
+    <span><a mat-button routerLink="/" style="font-size: 1em; margin-left: 10px;"><mat-icon class="icon">home</mat-icon> Home <span style="color: #E20074;"></span></a></span>
+    <span><a mat-button routerLink="/candidates" style="font-size: 1em; margin-left: 10px;"><mat-icon class="icon">group</mat-icon> Candidates <span style="color: #E20074;"></span></a></span>
+    <span><a mat-button routerLink="/tests" style="font-size: 1em; margin-left: 10px;"><mat-icon class="icon">quiz</mat-icon> Tests <span style="color: #E20074;"></span></a></span>
+    <span style="flex: 1 1 auto;"></span>
+  </mat-toolbar-row>
+</mat-toolbar>
+<div style="margin-top: 20px; padding-left: 10px; padding-right: 10px;">
+  <router-outlet></router-outlet>
+</div>

@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'TeleNeoWeb';
+  src: url('assets/TeleNeoWeb-Regular.eot') format('eot');
+  src: url('assets/TeleNeoWeb-Regular.eot?#iefix') format('embedded-opentype'),
+       url('assets/TeleNeoWeb-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'TeleNeoWeb-Bold';
+    font-style: bold;
+    src: url('assets/TeleNeoWeb-Bold.eot') format('eot');
+    src: url('assets/TeleNeoWeb-Bold.eot?#iefix') format('embedded-opentype'),
+         url('assets/TeleNeoWeb-Bold.woff2') format('woff2');
+  }

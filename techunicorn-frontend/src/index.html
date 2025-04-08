@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>TechUnicorn</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#E20074" />
+  <link rel="icon" type="image/x-icon" href="assets/ghost.png">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body class="mat-typography">
+  <app-root>
+    <style>
+      .maqueta_loading {
+        border: 16px solid #ffffff;
+        border-radius: 50%;
+        border-top: 16px solid #E20074;
+        width: 120px;
+        height: 120px;
+        -webkit-animation: spin 2s linear infinite;
+        animation: spin 2s linear infinite;
+      }
+      
+      @-webkit-keyframes spin {
+        0% { -webkit-transform: rotate(0deg); }
+        100% { -webkit-transform: rotate(360deg); }
+      }
+      
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+    </style>
+    <div class="maqueta_loading"></div>
+  </app-root>
+</body>
+</html>
